@@ -40,6 +40,7 @@ class Route
         $controller_path = "application/controllers/".$controller_file;
         if(file_exists($controller_path))
         {
+
             include "application/controllers/".$controller_file;
         }
         else

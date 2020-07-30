@@ -14,4 +14,8 @@ class View
 
         include 'application/views/'.$template_view;
     }
+    public function renderObjects($data)
+    {
+        include 'render-object.php';
+    }
 }
