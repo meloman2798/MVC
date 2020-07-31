@@ -10,19 +10,19 @@ class Model_contacts extends Model
     public $name = [
         'value' => null,
         'validation' => [
-            'type' => 'varchar',
+            'type' => 'string',
             'maxLength' => 255
         ],
         'form' => 'input',
-        'manualInput' => true
+        'manualInput' => true,
     ];
     public $number = [
         'value' => null,
         'validation' => [
-            'type' => 'dicimal',
-            'maxLength' => 10
+            'type' => 'varchar',
+            'maxLength' => 11
         ],
         'form' => 'input',
-        'manualInput' => true
+        'manualInput' => true,
     ];
 }
